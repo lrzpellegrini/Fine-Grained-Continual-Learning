@@ -1,21 +1,24 @@
 # Fine-Grained Continual Learning
 
-This is a Caffe implementation of **AR1\*** and **CWR\*** Continual Learning techniques.
+This is the original Caffe implementation of **AR1\*** and **CWR\*** Continual Learning techniques.
 
 A custom Caffe distribution packaged as a Docker image is used. More info and source code can be found [here](https://github.com/lrzpellegrini/CI-Customized-BVLC-caffe-docker). The Docker image is already available on the Docker Hub [here](https://hub.docker.com/r/lrzpellegrini/unibo_milab_caffe).
 
 See the [Running the experiments](#running-the-experiments) section for a detailed guide on how to reproduce our experiments.
 
+An official **PyTorch implementation** of the **AR1\*** and **CWR\*** algorithms is also available [here](https://github.com/vlomonaco/ar1-pytorch/)!
+
 ## Reference
 
-Our article is now available [here](https://arxiv.org/abs/1907.03799)!
+Our article *"Rehearsal-Free Continual Learning over Small Non-I.I.D. Batches"* is now available [here](https://arxiv.org/abs/1907.03799)!
 
-    @article{lomonaco2019nicv2,
-	   title = {Fine-Grained Continual Learning},
+    @InProceedings{lomonaco2019nicv2,
+	   title = {Rehearsal-Free Continual Learning over Small Non-I.I.D. Batches},
 	   author = {Vincenzo Lomonaco and Davide Maltoni and Lorenzo Pellegrini},
-	   journal = {Arxiv preprint arXiv:1907.03799},
+	   journal = {1st Workshop on Continual Learning in Computer Vision at CVPR2020},
+	   url = "https://arxiv.org/abs/1907.03799",
 	   year = {2019}
-    }
+	}
 
 ## Running the experiments
 Some helper scripts are provided under the `Run experiments` folder.
