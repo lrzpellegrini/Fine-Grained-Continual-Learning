@@ -1,4 +1,4 @@
-# Fine-Grained Continual Learning
+# Rehearsal-Free Continual Learning over Small Non-I.I.D. Batches
 
 This is the original Caffe implementation of **AR1\*** and **CWR\*** Continual Learning techniques.
 
